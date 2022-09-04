@@ -1,0 +1,35 @@
+/*Mozilla yyds*/
+/*背景和chrome新标签颜色一摸一样(大雾)*/
+body{background-color: #363636;}
+/*小米牛逼*/
+@font-face {
+    font-family: Misans-Bold;
+    src: url(./font/Misans/MiSans-Bold.ttf);
+    font-family: Misans;
+    src: url(./font/Misans/MiSans-Normal.ttf);
+}
+#mian_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Bing{
+    font-family: Misans;
+    flex-grow: 5%;
+}
+/*感觉通用标签(通用class)后面要没(划掉)没了qaq*/
+.lin{
+    color: white;
+    text-decoration-line: none;
+    font-family: Misans-Bold;
+}
+/*这个study有点颜色啊*/
+/*aaaaa!!!人要崩溃了啊....border你在干dio啊!*/
+.I1F4{
+    margin: 0%;
+    width: 10%;
+    border: 5%;
+    border-color: darkred;
+    background-color: red;
+}
